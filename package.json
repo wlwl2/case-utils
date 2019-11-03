@@ -1,11 +1,12 @@
 {
   "name": "case-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Utility tools for working with case changes.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "https://github.com/wlwl2/case-utils",
   "keywords": [
     "change",
     "case"
@@ -15,5 +16,6 @@
   "devDependencies": {
     "mocha": "^6.2.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "homepage": "https://github.com/wlwl2/case-utils"
 }

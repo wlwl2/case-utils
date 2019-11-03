@@ -1,1 +1,3 @@
-const CaseUtils = require('case-utils');
+const CaseUtils = require('case-utils')
+
+console.log(CaseUtils.camelCaseToDash('testString'))

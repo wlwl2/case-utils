@@ -20,6 +20,6 @@ npm i case-utils --save
 ```js
 const CaseUtils = require('case-utils');
 
-const  = CaseUtils.
+console.log(CaseUtils.camelCaseToDash('testString'))
 
 ```
