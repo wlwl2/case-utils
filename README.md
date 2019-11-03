@@ -7,7 +7,7 @@ and the string manipulation code can be seen in a single file (index.js).
 
 This package includes a function that for example:
 
-1. Converts 'testString' to `test-string`.
+1. Converts 'testString' to 'test-string'.
 
 2. Converts 'test-string' to 'test string'.
 

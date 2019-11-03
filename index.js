@@ -1,4 +1,4 @@
-// Converts 'testString' to `test-string`.
+// Converts 'testString' to 'test-string'.
 exports.camelCaseToDash = function (str) {
   return str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase()
 }
