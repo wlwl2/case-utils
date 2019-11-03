@@ -1,0 +1,19 @@
+{
+  "name": "case-utils",
+  "version": "0.1.0",
+  "description": "Utility tools for working with case changes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "change",
+    "case"
+  ],
+  "author": "William Lim",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {}
+}
