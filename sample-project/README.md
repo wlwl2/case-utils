@@ -1,4 +1,4 @@
-# Change Case Sample Project
+# case-utils Sample Project
 
 ## Installation
 
