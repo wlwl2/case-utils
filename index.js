@@ -10,5 +10,5 @@ exports.removeDashes = function (str) {
 
 // Converts 'test string' to 'Test String'.
 exports.toTitleCase = function (str) {
-  return str.replace(/\w\S*/g, function (txt) { return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase() })
+  return str.replace(/\w\S*/g, function (text) { return text.charAt(0).toUpperCase() + text.substr(1).toLowerCase() })
 }
