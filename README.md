@@ -4,6 +4,9 @@ Utility functions for working with string case in Node.js.
 
 See `docs/types_of_cases.md` for examples and more documentation.
 
+Also see the contents of the `migration` folder for what might happen in 
+the future.
+
 ## Motivation
 
 1. The advantage of using this package is that there are a few dependencies 
