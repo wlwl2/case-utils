@@ -12,7 +12,7 @@ and the string manipulation code can be seen in a single file (index.js).
 **what you are converting to** in the same function name.
 
 3. Get all of this done formally, because it's getting annoying even when
-I am writing in C#.
+I am writing in C#. See `docs/types_of_cases.md`.
 
 ## Features
 
