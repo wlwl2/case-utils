@@ -9,26 +9,25 @@ the future.
 
 ## Motivation
 
-1. The advantage of using this package is that there are a few dependencies 
+1) The advantage of using this package is that there are a few dependencies 
 and the string manipulation code can be seen in a single file (index.js).
 
-Understanding what the transformations do is **necessary** not just helpful
-and should be documented.
+Understanding what the transformations do is **necessary** not just helpful.
+It should be documented.
 
-At first, you might think you know what some transformations are doing,
+At first, you might think you know what transformations are doing,
 but think about these considerations:
 
-  - What happens to the other letters after the first letter?
-  
-  - The difference between 'dashes' and 'hyphens'.
-  
-  - Do you know what case you are converting from and to?
+What happens to the other letters after the first letter?
 
-2. Indicates **what you are converting from** and 
-**what you are converting to** in the same function name.
-**This will be implemented later. It is not implemented yet.**
+Do you know what case you are converting from and to?
 
-3. Get all of this done formally, because it's getting annoying even when
+The difference between 'dashes' and 'hyphens'.
+  
+2) Indicates what you are converting from and what you are converting 
+to **in the same function name**. **Not implemented fully yet.**
+
+3) Get all of this done formally, because it's getting annoying even when
 I am writing in C#. See `docs/types_of_cases.md`.
 
 ## Installation
