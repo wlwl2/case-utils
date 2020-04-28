@@ -1,67 +1,128 @@
 # Types of Cases
 
-Source: https://en.wikipedia.org/wiki/Letter_case
+I've taken all case type information from the source:
+
+https://en.wikipedia.org/wiki/Letter_case
+
+I have listed/summarized only the important details here with some modifications
+to this more concise version, in order for it to be understood better.
 
 ## Overview
 
 1. All caps
 2. Small caps
 3. Petite caps
-4. Start case
+4. Start case*
 5. Title case
 6. German-style sentence case
 7. Sentence Case
 8. Mid-sentence case
-9. All lowercase
-10. Camel case
-11. Pascal case
-12. Kebab case
+9. All lower case*
+10. Camel case*
+11. Pascal case*
+12. Kebab case*
 13. Train case
-14. Snake case
-15. Screaming snake case
+14. Snake case*
+15. Screaming snake case*
 16. Studly caps
 
-## All caps
+`*` indicates ones you'd probably be most interested in for programming.
+
+## 1. All caps
 
 All letters capitalized.
 
 THE VITAMINS ARE IN MY FRESH CALIFORNIA RAISINS
 
-## Small caps
+## 2. Small caps
 
-If it is a capital letter or uppercase, it becomes the same size as a normal
-uppercase letter, otherwise all lowercase letters are changed to uppercase 
-letters each of which are about the size of a lowercase x or slightly larger.
-
-THE VITAMINS ARE IN MY FRESH CALIFORNIA RAISINS
-
-## Petite caps
-
-Smaller than small caps, or at the size of a lowercase x if small caps 
-letters are slightly larger than the size of a lowercase x.
+If it is a capital letter or upper case, it becomes the same size as a normal
+upper case letter, otherwise all lower case letters are changed to upper case 
+letters each of which are about the size of a lower case x or slightly larger.
 
 THE VITAMINS ARE IN MY FRESH CALIFORNIA RAISINS
 
-## Start case
+## 3. Petite caps
 
-All words capitalised regardless of function
+Smaller than small caps, or at the size of a lower case x if small caps 
+letters are slightly larger than the size of a lower case x.
+
+THE VITAMINS ARE IN MY FRESH CALIFORNIA RAISINS
+
+## 4. Start case
+
+All words capitalized regardless of function.
 
 The	Vitamins Are In	My Fresh California	Raisins
 
-## Sentence Case
+## 5. Title case
+
+1. The first word and all other words capitalized except for articles and short
+prepositions and conjunctions.
+
+The Vitamins Are in My Fresh California Raisins
+
+2. As in above (1) but also excluding copulae (forms of "to be").
+
+The Vitamins are in My Fresh California Raisins
+
+3. As above (2) but excluding all closed-class words.
+
+The Vitamins are in my Fresh California Raisins
+
+## 6. German-style sentence case
+
+The first word and all nouns capitalized.
+
+The Vitamins are in my fresh California Raisins
+
+## 7. Sentence Case
 
 The quick brown fox jumps over the lazy dog
 
-## 
+OR
 
-- German-style sentence case
-- Sentence Case
-- Mid-sentence case
-- All lowercase
-- Camel case
-- Pascal case
-- Kebab case
-- Train case
-- Snake case
-- Screaming snake case
-- Studly caps
+The vitamins are in my fresh California raisins
+
+## 8. Mid-sentence case
+
+As in Sentence Case but excluding capitalization of the first word.
+
+the vitamins are in my fresh California raisins
+
+## 9. All lowercase
+
+All lower case letters.
+
+the vitamins are in my fresh california raisins
+
+## 10. Camel case
+
+theQuickBrownFoxJumpsOverTheLazyDog
+
+## 11. Pascal case
+
+TheQuickBrownFoxJumpsOverTheLazyDog
+
+## 12. Kebab case
+
+the-quick-brown-fox-jumps-over-the-lazy-dog
+
+## 13. Train case
+
+TRAIN-CASE
+
+## 14. Snake case
+
+the_quick_brown_fox_jumps_over_the_lazy_dog
+
+## 15. Screaming snake case
+
+SCREAMING_SNAKE_CASE
+
+## 16. Studly caps
+
+Random...
+
+tHeqUicKBrOWnFoXJUmpsoVeRThElAzydOG
+
