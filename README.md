@@ -42,6 +42,9 @@ npm i case-utils --save
 
 ## Usage
 
+**The names of these functions will most likely change in the future.
+For now, they kind of work.**
+
 ### camelCaseToHyphenated()
 
 Converts 'testString' to `test-string`.
@@ -74,11 +77,11 @@ const CaseUtils = require('case-utils');
 console.log(CaseUtils.removeHyphens('test-string')); // Returns `test string`.
 ```
 
-### toTitleCase()
+### toStartCase()
 
 Converts 'test string' to 'Test String'.
 
-`CaseUtils.toTitleCase(string)` accepts a string as an argument and 
+`CaseUtils.toStartCase(string)` accepts a string as an argument and 
 returns a string.
 
 #### Example:
@@ -86,5 +89,5 @@ returns a string.
 ```js
 const CaseUtils = require('case-utils');
 
-console.log(CaseUtils.toTitleCase('test string')); // Returns `Test String`.
+console.log(CaseUtils.toStartCase('test string')); // Returns `Test String`.
 ```
