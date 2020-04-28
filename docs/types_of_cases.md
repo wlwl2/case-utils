@@ -7,6 +7,10 @@ https://en.wikipedia.org/wiki/Letter_case
 I have summarized only the important details here with some modifications in
 order for it to be understood better.
 
+In some cases e.g. camel case/pascal case, the wikipedia article does not
+mention about it being similar to all caps case in cases of "FFF", or "ID" for
+example.
+
 ## Overview
 
 1. All caps
@@ -90,7 +94,7 @@ As in Sentence Case but excluding capitalization of the first word.
 
 the vitamins are in my fresh California raisins
 
-## 9. All lowercase*
+## 9. All lower case*
 
 All lower case letters.
 
