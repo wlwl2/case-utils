@@ -7,7 +7,7 @@ console.log(CaseUtils.camelToKebab("IsACollider"))
 console.log(CaseUtils.camelToKebab("PositionX"))
 console.log(CaseUtils.camelToKebab("PlayerID"))
 console.log(CaseUtils.camelToKebab("IDPlayer"))
-console.log(CaseUtils.camelToKebab("thisIsATest"))
+console.log(CaseUtils.camelToKebab("ThisIsATest"))
 
 console.log('removeHyphens() results:')
 console.log(CaseUtils.removeHyphens('this-is-a-test'))
