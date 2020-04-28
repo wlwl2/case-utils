@@ -11,7 +11,7 @@
  * after a upper case letter to add a dash before that upper case letter.
  * "HTML" and "CSS" also work nicely.
  * I feel that you should select what type of conversion you want anyway.
- * What happens when you do "3DObject"?
+ * What happens when you do "3DObject" or "IOStream"?
  * @param {string} str - Camel (or Pascal) case.
  * @returns {string} Kebab case.
  */
