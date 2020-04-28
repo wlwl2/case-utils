@@ -9,8 +9,19 @@ See `docs/types_of_cases.md` for examples and more documentation.
 1. The advantage of using this package is that there are a few dependencies 
 and the string manipulation code can be seen in a single file (index.js).
 
+Understanding what the transformations do is **necessary** not just helpful
+and should be documented.
+
+At first, you might think you know what some transformations are doing,
+but think about these considerations:
+
+  - What happens to the other letters after the first letter?
+  
+  - The difference between 'dashes' and 'hyphens'.
+
 2. Indicates **what you are converting from** and 
 **what you are converting to** in the same function name.
+**This will be implemented later. It is not implemented yet.**
 
 3. Get all of this done formally, because it's getting annoying even when
 I am writing in C#. See `docs/types_of_cases.md`.
@@ -31,11 +42,13 @@ npm i case-utils --save
 
 ## Usage
 
-### camelCaseToDash()
+### camelCaseToHyphenated()
 
 Converts 'testString' to `test-string`.
 
-`CaseUtils.camelCaseToDash(string)` accepts a string as an argument and 
+Currently also does this for Pascal case.
+
+`CaseUtils.camelCaseToHyphenated(string)` accepts a string as an argument and 
 returns a string.
 
 #### Example:
@@ -43,14 +56,14 @@ returns a string.
 ```js
 const CaseUtils = require('case-utils');
 
-console.log(CaseUtils.camelCaseToDash('testString')); // Returns `test-string`.
+console.log(CaseUtils.camelCaseToHyphenated('testString')); // Returns `test-string`.
 ```
 
-### removeDashes()
+### removeHyphens()
 
 Converts 'test-string' to 'test string'.
 
-`CaseUtils.removeDashes(string)` accepts a string as an argument and 
+`CaseUtils.removeHyphens(string)` accepts a string as an argument and 
 returns a string.
 
 #### Example:
@@ -58,7 +71,7 @@ returns a string.
 ```js
 const CaseUtils = require('case-utils');
 
-console.log(CaseUtils.removeDashes('test-string')); // Returns `test string`.
+console.log(CaseUtils.removeHyphens('test-string')); // Returns `test string`.
 ```
 
 ### toTitleCase()
