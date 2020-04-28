@@ -1,0 +1,6 @@
+camelToKebab("itemID")
+camelToKebab("IsACollider")
+camelToKebab("PositionX")
+camelToKebab("PlayerID")
+camelToKebab("IDPlayer")
+camelToKebab("thisIsATest")

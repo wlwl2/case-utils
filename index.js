@@ -1,15 +1,19 @@
-// Converts 'testString' to 'test-string'.
-exports.camelCaseToHyphenated = function (str) {
-  return str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase()
+// Converts 'thisIsATest' to 'this-is-atest'.
+exports.camelToKebab = function (str) {
+  var a = str.replace(/([A-Z])([A-Z])([a-z])/g, function (match, p1, p2, p3) {
+    return `${p1}-${p2}${p3}`
+  })
+  var b = a.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase()
+  return b
 }
 
-// Converts 'test-string' to 'test string'.
+// Converts 'this-is-a-test' to 'this is a test'.
 exports.removeHyphens = function (str) {
   return str.replace(/-/g, ' ')
 }
 
-// Converts 'test string' to 'Test String'.
-exports.toStartCase = function (str) {
+// Converts 'this is a test' to 'This Is A Test'.
+exports.toStart = function (str) {
   return str.replace(/\w\S*/g, function (text) { 
     return text.charAt(0).toUpperCase() + text.substr(1).toLowerCase() 
   })

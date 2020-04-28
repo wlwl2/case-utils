@@ -21,6 +21,8 @@ but think about these considerations:
   - What happens to the other letters after the first letter?
   
   - The difference between 'dashes' and 'hyphens'.
+  
+  - Do you know what case you are converting from and to?
 
 2. Indicates **what you are converting from** and 
 **what you are converting to** in the same function name.
@@ -40,13 +42,13 @@ npm i case-utils --save
 **The names of these functions will most likely change in the future.
 For now, they kind of work.**
 
-### camelCaseToHyphenated()
+### camelToKebab()
 
-Converts 'thisIsATest' to 'this-is-atest'.
+Converts 'thisIsATest' to 'this-is-a-test'.
 
 Currently also does this for Pascal case.
 
-`CaseUtils.camelCaseToHyphenated(string)` accepts a string as an argument and 
+`CaseUtils.camelToKebab(string)` accepts a string as an argument and 
 returns a string.
 
 #### Example:
@@ -54,7 +56,7 @@ returns a string.
 ```js
 const CaseUtils = require('case-utils');
 
-console.log(CaseUtils.camelCaseToHyphenated('thisIsATest')); // Returns `this-is-atest`.
+console.log(CaseUtils.camelToKebab('thisIsATest')); // Returns `this-is-a-test`.
 ```
 
 ### removeHyphens()
@@ -72,13 +74,13 @@ const CaseUtils = require('case-utils');
 console.log(CaseUtils.removeHyphens('this-is-a-test')); // Returns `this is a test`.
 ```
 
-### toStartCase()
+### toStart()
 
-Converts 'this is a test' to 'This Is A Test'
+Converts 'this is a test' to 'This Is A Test'.
 
 Also: 'this is a tEST' to 'This Is A Test'.
 
-`CaseUtils.toStartCase(string)` accepts a string as an argument and 
+`CaseUtils.toStart(string)` accepts a string as an argument and 
 returns a string.
 
 #### Example:
@@ -86,5 +88,5 @@ returns a string.
 ```js
 const CaseUtils = require('case-utils');
 
-console.log(CaseUtils.toStartCase('this is a test')); // Returns `This Is A Test`.
+console.log(CaseUtils.toStart('this is a test')); // Returns `This Is A Test`.
 ```
