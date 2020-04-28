@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "case-utils": "^0.1.1"
+    "case-utils": "^1.0.0"
   }
 }

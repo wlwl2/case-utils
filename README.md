@@ -29,14 +29,6 @@ but think about these considerations:
 3. Get all of this done formally, because it's getting annoying even when
 I am writing in C#. See `docs/types_of_cases.md`.
 
-## Features
-
-1. Converts 'testString' to 'test-string'.
-
-2. Converts 'test-string' to 'test string'.
-
-3. Converts 'test string' to 'Test String'.
-
 ## Installation
 
 ```bash
@@ -50,7 +42,7 @@ For now, they kind of work.**
 
 ### camelCaseToHyphenated()
 
-Converts 'testString' to `test-string`.
+Converts 'thisIsATest' to 'this-is-atest'.
 
 Currently also does this for Pascal case.
 
@@ -62,12 +54,12 @@ returns a string.
 ```js
 const CaseUtils = require('case-utils');
 
-console.log(CaseUtils.camelCaseToHyphenated('testString')); // Returns `test-string`.
+console.log(CaseUtils.camelCaseToHyphenated('thisIsATest')); // Returns `this-is-atest`.
 ```
 
 ### removeHyphens()
 
-Converts 'test-string' to 'test string'.
+Converts 'this-is-a-test' to 'this is a test'.
 
 `CaseUtils.removeHyphens(string)` accepts a string as an argument and 
 returns a string.
@@ -77,12 +69,14 @@ returns a string.
 ```js
 const CaseUtils = require('case-utils');
 
-console.log(CaseUtils.removeHyphens('test-string')); // Returns `test string`.
+console.log(CaseUtils.removeHyphens('this-is-a-test')); // Returns `this is a test`.
 ```
 
 ### toStartCase()
 
-Converts 'test string' to 'Test String'.
+Converts 'this is a test' to 'This Is A Test'
+
+Also: 'this is a tEST' to 'This Is A Test'.
 
 `CaseUtils.toStartCase(string)` accepts a string as an argument and 
 returns a string.
@@ -92,5 +86,5 @@ returns a string.
 ```js
 const CaseUtils = require('case-utils');
 
-console.log(CaseUtils.toStartCase('test string')); // Returns `Test String`.
+console.log(CaseUtils.toStartCase('this is a test')); // Returns `This Is A Test`.
 ```

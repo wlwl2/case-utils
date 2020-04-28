@@ -1,8 +1,6 @@
 const CaseUtils = require('case-utils')
 
-console.log(CaseUtils.camelCaseToDash('testString')) // Returns `test-string`.
-
-console.log(CaseUtils.removeDashes('test-string')) // Returns `test string`.
-
-console.log(CaseUtils.toTitleCase('test string')) // Returns `Test String`.
+console.log(CaseUtils.camelCaseToHyphenated('thisIsATest'))
+console.log(CaseUtils.removeHyphens('this-is-a-test'))
+console.log(CaseUtils.toStartCase('this is a test'))
 
