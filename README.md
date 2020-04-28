@@ -2,8 +2,18 @@
 
 Utility functions for working with string case in Node.js. 
 
-The advantage of using this package is that there are a few dependencies 
+## Motivation
+
+1. The advantage of using this package is that there are a few dependencies 
 and the string manipulation code can be seen in a single file (index.js).
+
+2. Indicates **what you are converting from** and 
+**what you are converting to** in the same function name.
+
+3. Get all of this done formally, because it's getting annoying even when
+I am writing in C#.
+
+## Features
 
 This package includes a function that for example:
 
