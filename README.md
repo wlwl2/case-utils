@@ -1,7 +1,8 @@
 # case-utils
 
-Utility functions for working with string case in Node.js. Also contains some
-documentation on cases.
+Utility functions for working with string case in Node.js.
+
+See `docs/types_of_cases.md` for examples and more documentation.
 
 ## Motivation
 

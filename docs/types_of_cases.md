@@ -112,9 +112,14 @@ TheQuickBrownFoxJumpsOverTheLazyDog
 
 the-quick-brown-fox-jumps-over-the-lazy-dog
 
+jQuery and lodash docs has it as kebab case.
+
 ## 13. Train case
 
 TRAIN-CASE
+
+I'm still not sure if this is correct. Just saw it on wikipedia with 
+**citation needed**.
 
 ## 14. Snake case*
 
