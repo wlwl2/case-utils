@@ -33,6 +33,12 @@ https://en.wikipedia.org/wiki/Letter_case
 I guess that start case does not do any conversions for all other letters.
 Only affects the first letter of each word.
 
+### Flat Case
+
+Flat case: testvariable
+
+Java package names
+
 ## Overview
 
 1. All caps
