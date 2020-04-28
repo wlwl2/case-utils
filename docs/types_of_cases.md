@@ -1,11 +1,11 @@
 # Types of Cases
 
-I've taken all case type information from the source:
+I've taken all case type/cases information from the source:
 
 https://en.wikipedia.org/wiki/Letter_case
 
-I have listed/summarized only the important details here with some modifications
-to this more concise version, in order for it to be understood better.
+I have summarized only the important details here with some modifications in
+order for it to be understood better.
 
 ## Overview
 
@@ -49,7 +49,7 @@ letters are slightly larger than the size of a lower case x.
 
 THE VITAMINS ARE IN MY FRESH CALIFORNIA RAISINS
 
-## 4. Start case
+## 4. Start case*
 
 All words capitalized regardless of function.
 
@@ -90,21 +90,21 @@ As in Sentence Case but excluding capitalization of the first word.
 
 the vitamins are in my fresh California raisins
 
-## 9. All lowercase
+## 9. All lowercase*
 
 All lower case letters.
 
 the vitamins are in my fresh california raisins
 
-## 10. Camel case
+## 10. Camel case*
 
 theQuickBrownFoxJumpsOverTheLazyDog
 
-## 11. Pascal case
+## 11. Pascal case*
 
 TheQuickBrownFoxJumpsOverTheLazyDog
 
-## 12. Kebab case
+## 12. Kebab case*
 
 the-quick-brown-fox-jumps-over-the-lazy-dog
 
@@ -112,11 +112,11 @@ the-quick-brown-fox-jumps-over-the-lazy-dog
 
 TRAIN-CASE
 
-## 14. Snake case
+## 14. Snake case*
 
 the_quick_brown_fox_jumps_over_the_lazy_dog
 
-## 15. Screaming snake case
+## 15. Screaming snake case*
 
 SCREAMING_SNAKE_CASE
 
