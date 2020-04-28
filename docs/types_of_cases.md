@@ -4,22 +4,22 @@ Source: https://en.wikipedia.org/wiki/Letter_case
 
 ## Overview
 
-- All caps
-- Small caps
-- Petite caps
-- Start case
-- Title case
-- German-style sentence case
-- Sentence Case
-- Mid-sentence case
-- All lowercase
-- Camel case
-- Pascal case
-- Kebab case
-- Train case
-- Snake case
-- Screaming snake case
-- Studly caps
+1. All caps
+2. Small caps
+3. Petite caps
+4. Start case
+5. Title case
+6. German-style sentence case
+7. Sentence Case
+8. Mid-sentence case
+9. All lowercase
+10. Camel case
+11. Pascal case
+12. Kebab case
+13. Train case
+14. Snake case
+15. Screaming snake case
+16. Studly caps
 
 ## All caps
 
@@ -53,3 +53,15 @@ The	Vitamins Are In	My Fresh California	Raisins
 The quick brown fox jumps over the lazy dog
 
 ## 
+
+- German-style sentence case
+- Sentence Case
+- Mid-sentence case
+- All lowercase
+- Camel case
+- Pascal case
+- Kebab case
+- Train case
+- Snake case
+- Screaming snake case
+- Studly caps
