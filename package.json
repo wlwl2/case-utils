@@ -1,6 +1,6 @@
 {
   "name": "case-utils",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "Utility tools for working with case changes.",
   "main": "index.js",
   "scripts": {
