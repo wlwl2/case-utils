@@ -1,6 +1,7 @@
 # case-utils
 
-Utility functions for working with string case in Node.js. 
+Utility functions for working with string case in Node.js. Also contains some
+documentation on cases.
 
 ## Motivation
 
@@ -15,16 +16,11 @@ I am writing in C#.
 
 ## Features
 
-This package includes a function that for example:
-
 1. Converts 'testString' to 'test-string'.
 
 2. Converts 'test-string' to 'test string'.
 
 3. Converts 'test string' to 'Test String'.
-
-This was originally meant to convert 'camelCase' strings I 
-had to 'Title Case'.
 
 ## Installation
 
