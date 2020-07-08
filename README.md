@@ -25,7 +25,7 @@ Do you remember the names of the cases you are converting from and to?
 
 Do you remember the difference between 'dashes' and 'hyphens'?
 
-What happens to the other letters after the first letter?
+What happens to all of the characters after the transformation?
 
 ### Transformation function names
   
