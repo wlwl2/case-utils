@@ -28,7 +28,7 @@ but consider this:
 - What happens to **all** and each of the characters after the transformation?
 In 9 July 2020, the toStart() function in this package converted
 'this is a test' to 'This Is A Test',
-but it also converted 'this is a tEST' to 'This Is A Test'. This means
+but it also converted 'this is a tEST' to 'This Is A Test'. This meant
 that, not only was the first character of each word transformed, the others
 were too ("EST" to "est").
 
