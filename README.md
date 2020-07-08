@@ -19,7 +19,7 @@ Understanding what the transformations do is **necessary** and not just helpful.
 Transformations should be documented.
 
 At first, you might think you know what transformations are doing,
-but think about these considerations:
+but consider this:
 
 Do you remember the names of the cases you are converting from and to?
 
