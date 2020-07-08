@@ -32,7 +32,7 @@ but it also converts 'this is a tEST' to 'This Is A Test'. This means
 that, not only is the first character of each word transformed, the others
 are too ("EST" to "est").
 
-(9 July 2020 Update) The toStart() function name and functionality will probably change.
+9 July 2020 Update: The toStart() function name and functionality will probably change.
 
 ### Transformation function names
   
