@@ -21,16 +21,25 @@ Transformations should be documented.
 At first, you might think you know what transformations are doing,
 but consider this:
 
-Do you remember the names of the cases you are converting from and to?
+- Do you remember the names of the cases you are converting from and to?
 
-Do you remember the difference between 'dashes' and 'hyphens'?
+- Do you remember the difference between 'dashes' and 'hyphens'?
 
-What happens to all of the characters after the transformation?
+- What happens to all of the characters after the transformation?
+Currently (9 July 2020) the toStart() function in this package converts 
+'this is a test' to 'This Is A Test',
+but it also converts 'this is a tEST' to 'This Is A Test'. This means
+that, not only is the first character of each word transformed, the others
+are too ("EST" to "est").
+
+(9 July 2020 Update) The toStart() function name and functionality will probably change.
 
 ### Transformation function names
   
+**This is not started or complete yet.**
+  
 Indicates what you are converting from and what you are converting 
-to **in the same function name**. **Not implemented fully yet.**
+to **in the same function name**. 
 
 ### A more formal resource
 
