@@ -9,22 +9,23 @@ the future.
 
 ## Motivation
 
-### Look at the transformations
+### Understanding transformations and the code that does them
 
 The advantage of using this package is that there are a few dependencies 
-and the string manipulation code can be seen in a single file (index.js).
+and string manipulation code can be seen in a single file (index.js).
 
-Understanding what the transformations do is **necessary** not just helpful.
-It should be documented.
+Understanding what the transformations do is **necessary** and not just helpful.
+
+Transformations should be documented.
 
 At first, you might think you know what transformations are doing,
 but think about these considerations:
 
+Do you remember the names of the cases you are converting from and to?
+
+Do you remember the difference between 'dashes' and 'hyphens'?
+
 What happens to the other letters after the first letter?
-
-Do you know what case you are converting from and to?
-
-The difference between 'dashes' and 'hyphens'.
 
 ### Transformation function names
   
