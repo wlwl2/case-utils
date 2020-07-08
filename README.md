@@ -25,14 +25,14 @@ but consider this:
 
 - Do you remember the difference between 'dashes' and 'hyphens'?
 
-- What happens to all of the characters after the transformation?
-Currently (9 July 2020) the toStart() function in this package converts 
+- What happens to **all** and each of the characters after the transformation?
+In 9 July 2020, the toStart() function in this package converted
 'this is a test' to 'This Is A Test',
-but it also converts 'this is a tEST' to 'This Is A Test'. This means
-that, not only is the first character of each word transformed, the others
-are too ("EST" to "est").
+but it also converted 'this is a tEST' to 'This Is A Test'. This means
+that, not only was the first character of each word transformed, the others
+were too ("EST" to "est").
 
-9 July 2020 Update: The toStart() function name and functionality will probably change.
+9 July 2020 Log: The toStart() function name and functionality will probably change.
 
 ### Transformation function names
   
