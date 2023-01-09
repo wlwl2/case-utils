@@ -21,11 +21,11 @@ abrupt change followed by a return (in a sense, an abrupt change too) to the
 main flow of thought
 - in enumerations, as alternative to a list bullet.
 
-Legendary source: 
+Source: 
 
 https://jkorpela.fi/dashes.html
 
-The full original source is [here](dashes-vs-hyphens-source-1.md)
+A backup of the full original source is [here](dashes-vs-hyphens-source-1.md).
 
 ## Hyphens
 
