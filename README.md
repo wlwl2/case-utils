@@ -24,7 +24,11 @@ but consider this:
 
 - Do you remember the names of the cases you are converting from and to?
 
+See [types_of_cases.md](docs/types_of_cases.md)
+
 - Do you remember the difference between 'dashes' and 'hyphens'?
+
+See [dashes-vs-hyphens.md](docs/dashes-vs-hyphens.md)
 
 - What happens to **all** and each of the characters after the transformation?
 In 9 July 2020, the toStart() function in this package converted
