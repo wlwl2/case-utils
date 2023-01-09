@@ -2,8 +2,8 @@
 
 Utility functions for working with string case in Node.js.
 
-See `docs/types_of_cases.md` for examples and more documentation.
-[Link is here!](docs/types_of_cases.md)
+See [types_of_cases.md](docs/types_of_cases.md) (`docs/types_of_cases.md`) for examples and more documentation.
+
 
 Also see the contents of the `migration` folder for what might happen in 
 the future.
@@ -45,7 +45,7 @@ to **in the same function name**.
 ### A more formal resource
 
 Get all of this done formally, because it's getting annoying even when
-I am writing in C#. See `docs/types_of_cases.md`.
+I am writing in C#. See [types_of_cases.md](docs/types_of_cases.md) (`docs/types_of_cases.md`).
 
 ## Installation
 
