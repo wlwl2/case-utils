@@ -94,3 +94,12 @@ PUBLISHED BY HOUGHTON MIFFLIN HARCOURT PUBLISHING COMPANY. ALL RIGHTS RESERVED.
 
 https://www.dictionary.com/browse/dash
 
+## Other Sources
+
+In some styles, minus signs are represented using an en dash instead of a minus
+sign or a hyphen. This is not done in Wikipedia. In math formulas a hyphen-minus
+codes for a minus sign, but in text &minus; produces the minus sign (see below).
+
+https://en.wikipedia.org/wiki/Wikipedia:Hyphens_and_dashes
+
+https://en.wikipedia.org/wiki/Wikipedia:How_to_make_dashes
