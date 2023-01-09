@@ -96,9 +96,59 @@ https://www.dictionary.com/browse/dash
 
 ## Other Sources
 
+There are at least eight different horizontal dash-like characters of varying
+lengths defined in Unicode. Wikipedia uses four: the hyphen (sometimes called
+the hyphen-minus), the minus sign, the en dash, and the em dash.
+
+**Hyphen** ("`-`", MOS:HYPHEN) (actually the hyphen-minus character in ASCII or
+Unicode character sets) are used in many ways on Wikipedia. They are the only
+short, horizontal dash-like character available as a separate key on most
+keyboards. They are used:
+
+- in names, such as "Julia Louis-Dreyfus" and "Sainte-Ode",
+- in compound modifiers, as in "hard-boiled egg", "small-appliance industry", 
+and "real-valued function",
+- for prefixes and suffixes, such as "mid-Atlantic" and "shell-like",
+- when prefixing a capitalized word, such as "un-Christian",
+- to avoid double vowels, such as "semi-independent"
+- when writing out fractions like "one-third" or "three-fifths"
+
 In some styles, minus signs are represented using an en dash instead of a minus
 sign or a hyphen. This is not done in Wikipedia. In math formulas a hyphen-minus
 codes for a minus sign, but in text &minus; produces the minus sign (see below).
+
+**En dash** ("`–`", MOS:ENDASH) are slightly longer than hyphens. They are used:
+
+- in date ranges, such as 1849–1863,
+- to join two names in a phrase, such as the Michelson–Morley experiment,
+- in multi-part prefixes, such as "post–World War II", although for those, 
+either a hyphen or an en dash can be used; British publications use hyphens, 
+and American publications use en dashes.[dubious – discuss]
+
+Spaced en dashes are also used to set aside a phrase – like this – in a
+sentence; when this is done, it is preferred that a non-breaking space be used
+before the en dash and a normal one after it: `&nbsp;– `.
+
+**Em dash** ("`—`", MOS:EMDASH) are even longer and are used solely to set 
+aside a phrase—like this—in a sentence.
+
+Em dashes and en dashes, when used to set off parentheticals, are interrupters,
+along with parentheses (round brackets) and commas;[1] the principal differences
+are parentheses are used to offset text of an optional or "aside" nature, commas
+are used to offset text that flows as an integral part of the sentence, and
+dashes are used to offset text in an emphasized manner.
+
+**Minus sign** ("`−`", Wikipedia:Manual of Style/Mathematics#Minus sign) are
+available for negative numbers such as −4 but can cause difficulties in sorts
+and searches.
+
+The four hyphen/dash-like characters used in Wikipedia are:
+
+- `-` is a hyphen-minus (ASCII 2D, Unicode 002D), normally used as a hyphen, 
+or in math expressions as a minus sign
+- `–` is an en dash (Unicode 2013).
+- `—` is an em dash (Unicode 2014).
+- `−` is a minus (Unicode 2212).
 
 https://en.wikipedia.org/wiki/Wikipedia:Hyphens_and_dashes
 
