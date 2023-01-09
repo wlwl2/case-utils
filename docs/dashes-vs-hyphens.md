@@ -1,5 +1,30 @@
 # Dashes vs Hyphens
 
+## Hyphens vs Dashes (Source 1)
+
+"Hyphens are basically used inside words to separate their parts from each other."
+
+"The en dash is used to indicate an interval of some sort. This might mean a
+range, as in “ages 10–15”, or a route, as in “Chicago–Memphis train”. Generally,
+the en dash thus means “to”."
+
+The em dash is a multiple-use punctuation symbol, but it basically separates
+major parts of a statement, as opposite to the hyphen and the en dash, which
+have more “local”, separative functions.
+
+The uses of the em dash can be classified as follows:
+
+- abrupt change—something unexpected follows after this punctuation character
+- abrupt termination, to indicate that the flow of speech ends unnaturally
+- parenthetic remark—like this—which might be seen as a special case of an 
+abrupt change followed by a return (in a sense, an abrupt change too) to the 
+main flow of thought
+- in enumerations, as alternative to a list bullet.
+
+Legendary source: 
+
+https://jkorpela.fi/dashes.html
+
 ## Hyphens
 
 hyphen
@@ -66,3 +91,4 @@ COPYRIGHT © 2005 BY HOUGHTON MIFFLIN HARCOURT PUBLISHING COMPANY.
 PUBLISHED BY HOUGHTON MIFFLIN HARCOURT PUBLISHING COMPANY. ALL RIGHTS RESERVED.
 
 https://www.dictionary.com/browse/dash
+
