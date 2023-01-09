@@ -25,9 +25,7 @@ Legendary source:
 
 https://jkorpela.fi/dashes.html
 
-The full original source is here:
-
-
+The full original source is [here](dashes-vs-hyphens-source-1.md)
 
 ## Hyphens
 
