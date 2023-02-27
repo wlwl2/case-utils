@@ -64,6 +64,9 @@ For now, they kind of work.**
 
 ### camelToKebab()
 
+There would be a **bug** if you used something like "itemIDitemID" (this should
+be fixed in the future).
+
 - 'thisIsATest' becomes: 'this-is-a-test'
 - 'itemID' becomes: 'item-id' **(NOT 'item-i-d')**
 - 'IsACollider' becomes: 'is-a-collider'
