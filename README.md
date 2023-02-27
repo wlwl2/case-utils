@@ -64,7 +64,15 @@ For now, they kind of work.**
 
 ### camelToKebab()
 
-Converts 'thisIsATest' to 'this-is-a-test'.
+- 'thisIsATest' becomes: 'this-is-a-test'
+- 'itemID' becomes: 'item-id' **(NOT 'item-i-d')**
+- 'IsACollider' becomes: 'is-a-collider'
+- 'PositionX' becomes: 'position-x'
+- 'PlayerID' becomes: 'player-id'
+- 'IDPlayer' becomes: 'id-player'
+- 'ThisIsATest' becomes: 'this-is-a-test'
+
+See the `sample-project` folder for the example script.
 
 Currently also does this for Pascal case.
 
