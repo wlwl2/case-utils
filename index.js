@@ -1,4 +1,4 @@
-// Converts 'thisIsATest' to 'this-is-atest'.
+// Converts 'thisIsATest' to 'this-is-a-test'.
 exports.camelToKebab = function (str) {
   var a = str.replace(/([A-Z])([A-Z])([a-z])/g, function (match, p1, p2, p3) {
     return `${p1}-${p2}${p3}`
