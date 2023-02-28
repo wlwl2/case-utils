@@ -66,6 +66,9 @@ Java package names
 15. Screaming snake case*
 16. Studly caps
 17. Cobol case*
+18. Ada case*
+19. Macro case*
+20. Dot notation*
 
 `*` indicates ones you'd probably be most interested in for programming.
 
@@ -196,7 +199,7 @@ MY_NAME_IS_BOND
 
 Source: https://github.com/jawira/case-converter (Jawira Portugal)
 
-### 20. Dot notation
+### 20. Dot notation*
 
 my.name.is.bond
 
