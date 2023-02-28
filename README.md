@@ -67,7 +67,9 @@ For now, they kind of work.**
 There would be a **bug** if you used something like `itemIDitemID` (this should
 be fixed in the future) e.g. by ensuring that there is only one regex result 
 found in the first regex search of the function, or by not doing this extra
-step at all (assuming that it works, but `item-i-d` does look weird).
+step at all (assuming that it works, but `item-i-d` does look weird), or by
+keeping both options (`item-i-d` and `item-id`) by creating two similar 
+functions.
 
 - 'thisIsATest' becomes: 'this-is-a-test'
 - 'itemID' becomes: 'item-id' **(NOT 'item-i-d')**
