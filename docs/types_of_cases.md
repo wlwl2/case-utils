@@ -1,6 +1,8 @@
 # Types of Cases
 
-I've taken all case type/cases information from the source:
+**Source 1:**
+
+I've taken many case type/cases information from the source:
 
 https://en.wikipedia.org/wiki/Letter_case
 
@@ -10,6 +12,12 @@ order for it to be understood better.
 In some cases e.g. camel case/pascal case, the wikipedia article does not
 mention about it being similar to all caps case in cases of "FFF", or "ID" for
 example.
+
+**Source 2:**
+
+https://github.com/jawira/case-converter (Jawira Portugal)
+
+Note that this is incorrect when it comes to Title case and Sentence case.
 
 ## Other Notes
 
@@ -57,6 +65,7 @@ Java package names
 14. Snake case*
 15. Screaming snake case*
 16. Studly caps
+17. Cobol case*
 
 `*` indicates ones you'd probably be most interested in for programming.
 
@@ -142,9 +151,15 @@ the-quick-brown-fox-jumps-over-the-lazy-dog
 
 jQuery and lodash docs has it as kebab case.
 
-### 13. Train case
+### 13. Train case*
+
+My-Name-Is-Bond
+
+Source: https://github.com/jawira/case-converter (Jawira Portugal)
 
 TRAIN-CASE
+
+Source: wikipedia
 
 I'm still not sure if this is correct. Just saw it on wikipedia with 
 **citation needed**.
@@ -162,3 +177,27 @@ SCREAMING_SNAKE_CASE
 Random...
 
 tHeqUicKBrOWnFoXJUmpsoVeRThElAzydOG
+
+### 17. Cobol case*
+
+MY-NAME-IS-BOND
+
+Source: https://github.com/jawira/case-converter (Jawira Portugal)
+
+### 18. Ada case*
+
+My_Name_Is_Bond
+
+Source: https://github.com/jawira/case-converter (Jawira Portugal)
+
+### 19. Macro case*
+
+MY_NAME_IS_BOND
+
+Source: https://github.com/jawira/case-converter (Jawira Portugal)
+
+### 20. Dot notation
+
+my.name.is.bond
+
+Source: https://github.com/jawira/case-converter (Jawira Portugal)
