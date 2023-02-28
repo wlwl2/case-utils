@@ -72,7 +72,7 @@ console.log(test.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase())
 ```
 2. Bug 2: Numbers in the text are not accounted for yet e.g. `TrainingDummy1` 
 becomes `training-dummy1` when we want: `training-dummy-1`.
-3. Bug 3: Function name change to `camelOrPascalToKebab()`.
+3. Bug 3: Function name change to `camelOrPascalToKebab()` after case detection.
 4. Enhancement: `hyphenate()`
 
 - 'thisIsATest' becomes: 'this-is-a-test'
