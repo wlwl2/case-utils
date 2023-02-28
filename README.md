@@ -64,13 +64,14 @@ For now, they kind of work.**
 
 ### camelToKebab()
 
-There would be a **bug** if you used something like `itemIDitemID` (this should
-be fixed in the future) e.g. by ensuring that there is only one regex result
-found in the first regex search of the function, or by not doing this extra step
-at all (assuming that it works, but `item-i-d` does look weird), or by keeping
-both options (`item-i-d` and `item-id`) by creating two similar  functions.
-Numbers in the text are not accounted for yet e.g. `TrainingDummy1` becomes
-`training-dummy1` when we want: `training-dummy-1`.
+1. Bug 1: There would be a **bug** if you used something like `itemIDitemID`.
+```js
+// Possible solution:
+var test = 'itemIDitemID'
+console.log(test.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase())
+```
+2. Bug 2: Numbers in the text are not accounted for yet e.g. `TrainingDummy1` 
+becomes `training-dummy1` when we want: `training-dummy-1`.
 
 - 'thisIsATest' becomes: 'this-is-a-test'
 - 'itemID' becomes: 'item-id' **(NOT 'item-i-d')**
