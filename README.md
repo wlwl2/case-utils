@@ -122,6 +122,8 @@ Also: 'this is a tEST' to 'This Is A Test'.
 `CaseUtils.toStart(string)` accepts a string as an argument and 
 returns a string.
 
+Bug: Numbers in the text are not accounted for yet e.g. `TrainingDummy1` 
+
 #### Example:
 
 ```js
